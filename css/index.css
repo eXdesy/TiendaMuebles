@@ -1,0 +1,100 @@
+/* ------------------------------  DEFOULT SETTINGS  ------------------------------ */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	color: var(--color);
+    font-family: 'Gill Sans MT', Calibri, sans-serif;
+}
+a {
+	text-decoration: none;
+}
+ul, ol, li {
+	list-style: none;
+}
+/* ------------------------------  FONTS  ------------------------------ */
+
+/* ------------------------------  VARIABLES  ------------------------------ */
+:root {
+	--index: calc(1vw + 1vh);
+	--color: #2d2d2d;
+	--transition: transform .75s cubic-bezier(.075, .5, 0, 1);
+	--gallery-gap: calc(var(--index) * 7.5)
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	/* -----  FOOTER IS ALWAYS BOTTOM...X  ----- */
+	display: flex;
+	flex-direction: column;
+}
+.content {
+	/* -----  CONTENT BORDER  ----- */
+	max-width: 100%;
+}
+main {
+	/* -----  X...AFTER MAIN  ----- */
+	flex: 1 1 auto;
+}
+/* ------------------------------  HEADER...  ------------------------------ */
+header {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 2%;
+    box-shadow: 0 2px 5px #0000001a;
+    z-index: 1;
+}
+header h1 {
+    font-size: 30px;
+    letter-spacing: 0.5em;
+    word-spacing: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+header span {
+    color: #0073ff;
+}
+nav {
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #0073ff;
+}
+/* ------------------------------  FOOTER...  ------------------------------ */
+footer {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3%;
+    margin: 0;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+}
+.footer-container ul {
+    display: flex;
+    flex-direction: column;
+}
+.footer-container a {
+    font-size: 20px;
+}
+.footer-container a:hover {
+    color: #0073ff;
+}
+.copyright p {
+    margin: 0;
+    padding-top: 3%;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+main {
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(45deg, #e9ebed,#f5ebe0,#d5bdaf);
+    animation: gradient 7s ease infinite;
+    background-size: 300% 300%;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+.gallery-container {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.gallery-container-foto {
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.gallery-container-foto img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}

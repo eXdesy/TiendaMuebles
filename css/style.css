@@ -1,0 +1,100 @@
+main {
+    background-color: white;
+    padding-top: 5%;
+    width: 100%;
+}
+.home img {
+    width: 100%;
+    height: 600px;
+    display: block;
+    margin: auto;
+}
+
+.categories {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.categories h2 {
+    text-align: center;
+    padding: 3% 0 3% 0;
+}
+.categories-container {
+    padding: 0 5% 5% 5%;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.categories-container-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px #0000001a;
+    transition: transform 0.3s;
+    text-align: center;
+}
+.categories-container-item:hover {
+    transform: scale(1.05);
+}
+.categories-container-item img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.categories-container-item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.categories-container-item:hover .categories-container-item-overlay {
+    opacity: 1;
+}
+.categories-container-item-button {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+.categories-container-item-button:hover {
+    background-color: #279ef9;
+    color: #000000;
+}
+
+.aboutUs {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.aboutUs-container {
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+    background: linear-gradient(45deg, #7eb0d7,#2563d7);
+    animation: gradient 7s ease infinite;
+    background-size: 150% 150%;
+    margin: 0;
+}
+.aboutUs-container-foto img {
+    width: 40vw;
+    height: 100%;
+    display: block;
+}
+.aboutUs-container-text {
+    padding: 4%;
+    font-size: 20px;
+    text-align: left;
+}

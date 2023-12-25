@@ -1,0 +1,26 @@
+main {
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(45deg, #7eb0d7,#2563d7);
+    animation: gradient 7s ease infinite;
+    background-size: 300% 300%;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+.aboutUs-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.aboutUs-container-foto img {
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+}
+.aboutUs-container-text {
+    padding: 4%;
+    font-size: 20px;
+    text-align: left;
+}

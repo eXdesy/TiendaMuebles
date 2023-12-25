@@ -1,0 +1,68 @@
+main {
+	padding-top: 10%;
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	padding: 3%;
+	background-color: #fff;
+	box-shadow: 0 0 10px #0000001a;
+	border-radius: 8px;
+}
+.container-article {
+	width: 75%;
+	padding-right: 5%;
+}
+.container-article h2,
+.container-article h3,
+.container-article h4 {
+	padding: 10px 0 10px 0;
+}
+.container-article-GuiadeColores,
+.container-article-GuiadeColores-content,
+.container-article-GuiadeColores-content-subcontent {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 15px 0 15px 0;
+}
+.container-article-GuiadeColores {
+	border-bottom: 1px solid #ddd;
+}
+.container-article-GuiadeColores img {
+	width: auto;
+	height: 100%;
+	border-radius: 15px;
+	margin: 15px 0 15px 0;
+}
+.container-article-GuiadeColores-content-foto,
+.container-article-GuiadeColores-content-subcontent-foto {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	margin: 0;
+}
+.container-article-GuiadeColores-content-foto img,
+.container-article-GuiadeColores-content-subcontent-foto img {
+	width: 100%;
+	height: auto;
+	border-radius: 15px;
+	margin: 15px 0 15px 0;
+	overflow: hidden;
+}
+.container-aside {
+	width: 25%;
+	padding: 30px 0 0 0;
+
+}
+.container-aside ul a {
+	display: block;
+	margin: 10px 0 10px 0;
+	padding: 5px 0 5px 0;
+	border-bottom: 1px solid #ddd;
+}
+.container-aside ul a:hover {
+	color: #007BFF;
+}
